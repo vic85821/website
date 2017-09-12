@@ -14,13 +14,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<body>
+	<body class="subpage">
 
 		<!-- Header -->
-			<header id="header" class="alt">
+			<header id="header">
 				<div class="logo"><a href="index.html">Vic Chang <span>website</span></a></div>
 				<a href="#menu">Menu</a>
-			</header>	
+			</header>
 
 		<!-- Nav -->
 			<nav id="menu">
@@ -32,42 +32,56 @@
 				</ul>
 			</nav>
 
-		<!-- Banner -->
-			<section id="banner">
-				<div class="inner">
-					<header>
-						<h1>Vic Chang Website</h1>
-						<p>Bugs make life interesting<br />However, overcoming them is what makes life meaningful</p>
-					</header>
-					<a href="#main" class="button big scrolly">Learn More</a>
-				</div>
-			</section>
-
 		<!-- Main -->
 			<div id="main">
-				<!-- Section -->
-					<section class="wrapper style1">
-						<div class="inner">
-							<!-- 2 Columns -->
-								<div class="flex flex-2">
-									<div class="col col1">
-										<div class="image round fit">
-											<a href="generic.html" class="link"><img src="images/pic01.jpg" alt="" /></a>
-										</div>
-									</div>
-									<div class="col col2">
-										<h3>About</h3>
-										<p>Yu­-Cheng Chang is a student having passion with computer science. He experienced in Linux, high performance database, chat bot, and computer vision.<br />Additionally, he is an outstanding student in math, data structure and algorithm. </p>
-										<p>
-											<ul>
-												<li>Programming Language: C, C++, Java </li>
-												<li>Tool: Parallel Processing(OpenMP, Pthread, MPI), Profiling(Perf, gprof), Gnuplot </li>
-											</ul>
-										</p>
-										<a href="introduction.html" class="button">Introduction</a>
 
-									</div>
+				<!-- Section -->
+					<section class="wrapper">
+						<div class="inner">
+							<header class="align-center">
+								<h1>Project</h1>
+							</header>
+
+							<div class="flex flex-2">
+								<div class="col col2">
+									<h3>HackMD Folder API</h3>
+									<h5>Node.js / Sequelize eager loading</h5>
+									<p>
+										HackMD is an online collaborative editor. We add folder feature that makes users manage files more easier.
+										The project includes API implementation and UI design. We use eager loading to decrease the query times and improve efficiency.
+										(still wait to be merged ... )
+									</p>
+									<hr>
 								</div>
+								<div class="col1 col3">
+									<a href="https://hackmd.io/" target="_blank"><img src="images/hackmd.png" alt=""/></a>
+								</div>
+
+								<div class="col col2">
+									<h3>Design and Implement High-Performance Concurrent Database</h3>
+									<h5>C / Lock-free Algorithm / Atomic Instruction</h5>
+									<p>
+										The project is forked from Jserv's github. In this experiment, We use B+tree to implement a database. There are 10 times
+										improvements than original database in performance. B+ tree is a data structure which is usually used to store enormous data. 
+										The main issues are how to use lock and bulk-loading. Could take a look in <a href="https://github.com/vic85821/bplus-tree" target="_blank">https://github.com/vic85821/bplus-tree</a>
+									</p>
+									<hr>
+								</div>
+								
+								<div class="col col2">
+									<h3>Android Application : iCURE</h3>
+									<h5>Android</h5>
+									<p>
+										This is our project in 2017 hackNTU. It's a memorable experience. Before the hackthon, I hadn't ever learned how to perform an android application.
+										In the 72 hours, we kept searching and coding. Finally, we finished "iCure". It is an app about the psychology. 
+										Users can share everything in their mind to others with anonymous. 
+									</p>
+									<hr>
+								</div>
+								<div class="col1 col3">
+									<img src="images/icure.png" alt=""/>
+								</div>
+							</div>
 						</div>
 					</section>
 			</div>

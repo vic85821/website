@@ -1586,7 +1586,7 @@
 
 	body {
 		background-color: #fff;
-		color: #999999;
+		color: #424141;
 	}
 
 	body, input, select, textarea {
@@ -1725,7 +1725,8 @@
 	}
 
 	h5 {
-		font-size: 0.9em;
+		font-size: 1.2em;
+		color: #B4B3B3;
 	}
 
 	h6 {
@@ -1816,7 +1817,7 @@
 		color: #000;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3{
 		color: #000;
 	}
 
@@ -2391,7 +2392,7 @@
 
 	input[type="checkbox"] + label,
 	input[type="radio"] + label {
-		color: #999999;
+		color: #424141;
 	}
 
 		input[type="checkbox"] + label:before,
@@ -2896,7 +2897,7 @@
 
 		.wrapper.style1 {
 			background-color: #fafafa;
-			color: #999999;
+			color: #424141;
 		}
 
 			.wrapper.style1 input, .wrapper.style1 select, .wrapper.style1 textarea {
